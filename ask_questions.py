@@ -1,5 +1,5 @@
 def ask_question(question):
-    """Present a single question to the user and return whether they answered correctly."""
+    """ format question"""
     print(f"Question: {question['question']}")
     for choice in question['choices']:
         print(choice)
@@ -11,6 +11,6 @@ def ask_question(question):
         print(f"Wrong! The correct answer is {question['answer']}\n")
         return False
     
-def calculate_result(score, total_questions, pass_mark=0.6):
+def calculate_result(score, pass_mark= 3):
     """Calculate if the user passes or fails based on the score."""
-    return "Pass" if score / total_questions >= pass_mark else "Fail"
+    return "Pass" if score >= pass_mark else "Fail"

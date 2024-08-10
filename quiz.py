@@ -5,18 +5,18 @@ def get_questions():
     """Define and return the list of quiz questions."""
     questions = [
         {
-            "question": "What is the capital of France?",
-            "choices": ["A) Paris", "B) London", "C) Rome", "D) Berlin"],
+            "question": "How many ethnic groups do we have in Nigeria?",
+            "choices": ["A) 250", "B) 3", "C) 776", "D) 400"],
             "answer": "A"
         },
         {
-            "question": "Which planet is known as the Red Planet?",
-            "choices": ["A) Earth", "B) Mars", "C) Jupiter", "D) Venus"],
+            "question": "In Nigeria, democracy day is now celebrated on:",
+            "choices": ["A) May 1st", "B) June 12th", "C) October 1st", "D) May 29th"],
             "answer": "B"
         },
         {
-            "question": "Who wrote 'Romeo and Juliet'?",
-            "choices": ["A) Charles Dickens", "B) George Orwell", "C) William Shakespeare", "D) Mark Twain"],
+            "question": " Which continent is the smallest in the world?",
+            "choices": ["A) South America", "B) Africa", "C) Australia", "D) Asia"],
             "answer": "C"
         },
         {
@@ -25,14 +25,14 @@ def get_questions():
             "answer": "D"
         },
         {
-            "question": "What is the smallest prime number?",
-            "choices": ["A) 0", "B) 1", "C) 2", "D) 3"],
+            "question": "How long does it take the earth to complete one revolution?",
+            "choices": ["A) 30", "B) 360", "C) 365", "D) 180"],
             "answer": "C"
         }
     ]
     return questions
 
 def shuffle_questions(questions):
-    """Shuffle the order of questions to randomize the quiz."""
+    """Shuffle the Questions"""
     random.shuffle(questions)
     return questions

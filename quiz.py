@@ -15,6 +15,15 @@ def get_questions():
             "answer": "B"
         },
         {
+            "question": "What is the value of pi (π) to two decimal places?",
+            "choices", ["A) 3.12", "B) 3.14", "C) 3.16", "D) 3.18"],
+            "answer": "C"
+        },
+        {
+            "question": "Which gas is most abundant in the Earth’s atmosphere?",
+            "choices": ["A) Oxygen", "B) Carbon Dioxide", "C) Nitrogen", "D) Hydrogen",
+            "answer": "C"
+        },
             "question": "Who wrote 'Romeo and Juliet'?",
             "choices": ["A) Charles Dickens", "B) George Orwell", "C) William Shakespeare", "D) Mark Twain"],
             "answer": "C"

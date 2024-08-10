@@ -25,6 +25,16 @@ def get_questions():
             "answer": "D"
         },
         {
+            "question": "What does HTML stand for?",
+            "choices": ["A) Hyper Text Markup Language", "B) Home Tool Markup Language", "C) Hyperlinks and Text Markup Language", "D) Hyperlink Text Mark Language"],
+            "answer": "A"
+        },
+        {
+            "question": "Which gas is most abundant in the Earth’s atmosphere?",
+            "choices":  ["A) Oxygen", "B) Carbon Dioxide", "C) Nitrogen", "D) Hydrogen"],
+            "answer": "C"
+        },
+        {
             "question": "What is the smallest prime number?",
             "choices": ["A) 0", "B) 1", "C) 2", "D) 3"],
             "answer": "C"
